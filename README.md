@@ -62,6 +62,8 @@ $ git push heroku master
 The buildpack will detect your repository as Revel if it
 contains the `conf/app.conf` and `conf/routes` files.
 
+It's possible to specify the revel mode by setting the REVEL_MODE environment variable. "prod" will be the default mode.
+
 #### Dependencies and private repositories
 If you want to use private repositories you just need to create Godeps folder with this command:
 ```
